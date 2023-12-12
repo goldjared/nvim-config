@@ -285,7 +285,7 @@ vim.o.termguicolors = true
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- Remap to netrw
-vim.keymap.set('n', '<leader>xp', vim.cmd.Ex)
+vim.keymap.set('n', '<leader>xp', vim.cmd.Ex, { desc = 'netrw E[x][p]lore' })
 
 
 
